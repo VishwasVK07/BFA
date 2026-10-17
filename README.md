@@ -31,6 +31,27 @@ At the end of the guide you will run a small check to confirm everything works, 
 
 > Don't skip this. If setup isn't done, you will spend class time fixing your laptop instead of learning.
 
+## Class 2: Python fundamentals and your first FastAPI server
+
+**What we cover:** Python version, the `.py` file, print and input, variables and types, conditionals, loops, functions, then your first FastAPI server with GET and POST.
+
+**Before the class (about 10 minutes):** install FastAPI and run a test server.
+
+| Your computer | Prep guide |
+|---------------|------------|
+| 🍎 **Mac** | [Class 2 prep: macOS](class-2/docs/class-2-setup-mac.md) |
+| 🪟 **Windows** | [Class 2 prep: Windows](class-2/docs/class-2-setup-windows.md) |
+
+**What is in the `class-2` folder**
+
+| Folder | What it is |
+|--------|------------|
+| [`docs/`](class-2/docs) | Class slides and the prep guides |
+| [`live-practice/`](class-2/live-practice) | Practice questions we solve together in class. Each file has the problem and the expected output in comments. Write your code under the comment. |
+| [`homework/`](class-2/homework) | Two tasks to finish after class: a POST API tested with the Talend API Tester browser extension, and an HTML page returned from FastAPI (use ChatGPT or any AI to help). Push your work to your GitHub repo. |
+
+---
+
 ## What you need
 
 - A laptop (Mac or Windows) with internet access
