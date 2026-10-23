@@ -21,4 +21,15 @@
 # ------------------------------------------------------------
 # Write your code below this line
 
+def c_to_f(celsius):
+    return celsius * 9 / 5 + 32
+temp = float(input("What is the temperature in Celsius? "))
+fahrenheit = c_to_f(temp)
+if temp > 30:
+    print("Hot")
+if temp < 10:
+    print("Cold")
+else:
+    print("Nice")
+
 
