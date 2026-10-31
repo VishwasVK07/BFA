@@ -45,6 +45,40 @@ No extra setup is needed. Your Class 1 setup is enough.
 | [`live-practice/`](class-2/live-practice) | Practice questions we solve together in class. Each file has the problem and the expected output in comments. Write your code under the comment. |
 | [`homework/`](class-2/homework) | Three tasks to finish after class. Push your work to your GitHub repo. |
 
+## Class 3: JavaScript and the web platform
+
+**What we cover:** where JavaScript runs (browser and Node.js), browser DevTools and the Console, JavaScript inside a web page, running files with Node.js, and npm packages.
+
+We do not relearn loops and functions. You port what you learned in Python, then run it in the browser Console and in Node.
+
+No extra setup is needed. Chrome (or Edge) and the Node.js from Class 1 are enough.
+
+**What is in the `class-3` folder**
+
+| Folder | What it is |
+|--------|------------|
+| [`docs/`](class-3/docs) | Class slides, and the [`lecture/`](class-3/docs/lecture) notes and code we show in class (start at its README) |
+| [`live-practice/`](class-3/live-practice) | Practice tasks we do together in class. Each file has the problem and the expected output in comments. |
+| [`homework/`](class-3/homework) | Four tasks to finish after class: the three Class 2 Python tasks again in JavaScript (run with `node`), and a small interactive website. Extra optional tasks are in `homework/optional`. Push your work to your GitHub repo. |
+
+Run a JavaScript file with `node file.js`. For the Console tasks, paste your code into the Console tab in DevTools.
+
+## Class 4: Backend with FastAPI
+
+**What we cover:** the big picture (frontend, backend, API, JSON), installing FastAPI, building simple routes (values in the URL, `POST`, a to-do API with list, add and delete), the free `/docs` page, a web page that calls your API, and how we will use AI to build the app.
+
+You need Python from Class 1. We install FastAPI in class (`pip install "fastapi[standard]"`).
+
+**What is in the `class-4` folder**
+
+| Folder | What it is |
+|--------|------------|
+| [`docs/`](class-4/docs) | Class slides, and the [`lecture/`](class-4/docs/lecture) notes and code we show in class (start at its README) |
+| [`live-practice/`](class-4/live-practice) | Three API tasks we do together in class. Each file has the problem and the expected output in comments. |
+| [`homework/`](class-4/homework) | Three tasks to finish after class: an even numbers API, a temperature API and a notes API. Push your work to your GitHub repo. |
+
+Install FastAPI once with `pip install -r class-4/requirements.txt` (Mac: `pip3`). Run an API file with `fastapi dev file.py`, then test it at `http://127.0.0.1:8000/docs`.
+
 ---
 
 ## What you need
