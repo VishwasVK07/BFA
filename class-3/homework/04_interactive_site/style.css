@@ -2,3 +2,19 @@
    A few simple rules only: a font, colours and spacing.
    Add a .dark class for dark mode (different background and text colour). */
 
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #222;
+  padding: 20px;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+  padding: 8px 12px;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
