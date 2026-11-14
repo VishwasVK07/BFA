@@ -1,0 +1,24 @@
+/* The CSS file: how the page looks. */
+body {
+  font-family: system-ui, sans-serif;
+  background: #eef3f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.box {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}

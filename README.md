@@ -79,6 +79,22 @@ You need Python from Class 1. We install FastAPI in class (`pip install "fastapi
 
 Install FastAPI once with `pip install -r class-4/requirements.txt` (Mac: `pip3`). Run an API file with `fastapi dev file.py`, then test it at `http://127.0.0.1:8000/docs`.
 
+## Class 5: HTML, CSS and Vanilla JS
+
+**What we cover:** the core HTML tags, CSS (selectors, the box model, colours), layout with flexbox, and plain JavaScript in the browser (find, listen, change). We use all of it to build a small **Linktree clone** live in class: a link-in-bio page with your photo, name, link buttons and a dark mode button. In Class 6 we rebuild this same page in React so you can see what React improves.
+
+No extra setup is needed. Chrome (or Edge) and VS Code from Class 1 are enough.
+
+**What is in the `class-5` folder**
+
+| Folder | What it is |
+|--------|------------|
+| [`docs/`](class-5/docs) | Class slides, and the [`lecture/`](class-5/docs/lecture) notes and code we show in class (start at its README) |
+| [`live-practice/`](class-5/live-practice) | Three small tasks we do together in class: add your own content to the Linktree page, change a card's style, and change the dark mode colours. Each file has the problem and the expected output in comments. |
+| [`homework/`](class-5/homework) | Build your own portfolio in three steps: HTML, then CSS, then a dark mode button (`index.html`, `style.css`, `script.js`). Push your work to your GitHub repo. |
+
+Open a page with `open index.html` (Mac) or `start index.html` (Windows). Open DevTools to see errors in the Console.
+
 ---
 
 ## What you need

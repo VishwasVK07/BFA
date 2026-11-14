@@ -1,0 +1,38 @@
+/* Live practice 2: change the values marked CHANGE ME, save, refresh. */
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #e8eef6;          /* CHANGE ME: page background colour */
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #d9e2ec;
+  border-radius: 10px;          /* CHANGE ME: try 0px, then 30px */
+  max-width: 300px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #1f2933;               /* CHANGE ME: heading colour */
+  font-size: 20px;              /* CHANGE ME: heading size */
+}
+
+button {
+  background: #2563eb;          /* CHANGE ME: button colour */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}

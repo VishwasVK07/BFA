@@ -1,0 +1,46 @@
+<!--
+Live practice 3: Change the dark mode (10 minutes)
+------------------------------------------------------------
+TOPICS: body.dark, background, color, classList.toggle
+
+PROBLEM
+The page and script.js already work. Open index.html in the browser and click
+the button. Then change values below. After each change: save, refresh, click.
+  1. In the <style> below: change the background of body.dark.
+  2. Change the color of body.dark (the text colour).
+  3. Change the button label (the text between <button> and </button>).
+
+TIP
+  JavaScript only switches the class "dark". The CSS does all the looks.
+
+EXPECTED OUTPUT
+  Your own dark colours and button label. No red errors in the Console.
+------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dark mode</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: white;
+        color: #1f2933;
+        padding: 24px;
+      }
+      body.dark {
+        background: #0f172a;     /* CHANGE ME: dark background */
+        color: #f8fafc;          /* CHANGE ME: dark text colour */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello dark mode</h1>
+    <p>Click the button to switch the page.</p>
+    <button id="theme-btn">Switch theme</button>   <!-- CHANGE ME: the label -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
